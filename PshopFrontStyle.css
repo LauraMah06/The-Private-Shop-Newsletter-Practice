@@ -1,0 +1,97 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    position: relative;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: left;
+    padding-left: 5%;
+    margin-top: 2%;
+    display: flex;
+    padding-right: 0%;
+
+}
+ul{
+    list-style: none;
+    text-align: right;
+    float: right;
+    display: flex;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    margin-top: 0%;
+}
+.NavBar li{
+    margin-top: 0%;
+    margin-left: 20px;
+    padding: 0 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: blueviolet;
+}
+.NewsletterF{
+    position: relative;
+    text-align: center; 
+}
+.NewsletterC{
+    position: relative;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.imagefront{
+    border-radius: 20%;
+    border-style: solid;
+}
+
+.My-form{
+    text-align: center;
+    box-sizing: border-box;
+    height: 600px;
+    width: 1280;
+    background-repeat: no-repeat;
+    background-image:url("Images/Birmingham Closed .jpg");
+    opacity: 0.9;
+    background-color: rgb(203, 167, 238);
+    background-position: center;
+    background-blend-mode:overlay;
+    border-style:solid;
+}
+.My-form label{
+    display: block;
+}
+.My-form input{
+    padding: 8px;
+    width: 50%;
+}
+.My-form textarea{
+    width: 50%;
+}
+.formgroup{
+    background-origin: padding-box;
+    border-style:solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+    padding: 30px;
+    
+}
+.Button{
+    padding: 0.5%;
+    background-color:rgb(207, 102, 207) ;
+    border-style:none;
+    text-decoration: solid;
+}
+.Button:hover{
+    background-color:rgb(241, 142, 175);
+}
+
+  
